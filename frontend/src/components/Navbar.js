@@ -2,18 +2,19 @@ import React from 'react'
 import './Navbar.css'
 import logo1 from '../images/logo1.png'
 import logo from '../images/logo.jpg'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
         <><div>
             <div class="row car">
                 <div class="col-lg-1">
-                    <a href="home.html"><img src={logo1} alt="sethu" /></a>
+                    <Link to='/'><a href="home.html" ><img src={logo1} alt="sethu" /></a></Link>
                 </div>
                 <div class="col-lg-1 row1 row1-1">
-                    <a href="women.html"> WOMEN</a>
+                    <Link to='/women'><a href="women.html"> WOMEN</a></Link>
                 </div>
                 <div class="col-lg-1 row1">
-                    <a href="men.html"> MEN</a>
+                    <Link to='/men'><a href="men.html"> MEN</a></Link>
                 </div>
                 <div class="col-lg-1 row1">
                     <a href="#">KIDS</a>

@@ -47,6 +47,8 @@ import pic30 from '../pages/Homeimage/9/pic30.jpg'
 import pic31 from '../pages/Homeimage/9/pic31.jpg'
 import pic32 from '../pages/Homeimage/9/pic32.webp'
 import pic33 from '../pages/Homeimage/9/pic33.png'
+import pic34 from '../pages/Men/7/pic32.png'
+
 
 
 
@@ -565,6 +567,11 @@ const Home = () => {
                     </button>
                 </div >
             </div >
+            <div class="floaat">
+                <span>
+                    <button type='submit'><img src={pic34} alt="" /></button>
+                </span>
+            </div>
         </div >
     )
 }
